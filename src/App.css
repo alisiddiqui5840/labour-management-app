@@ -1,0 +1,40 @@
+.App{
+  background: url("utils/unnamed.jpg");
+  height: 100vh;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #e95b5b;
+}
+
+.student-create-wapper{
+  width: 60%;
+  color: rgb(243, 74, 8);
+  
+}
+
+.student-list-wrapper{
+  width: 80%;
+}
+
+.student-create-wapper, 
+.student-list-wrapper{
+  margin: auto;
+  margin-top: 60px;
+}
+
+.student-create-wapper h1,
+.student-list-wrapper h1{
+  text-align: center;
+}
+
+.student-create-wapper form {
+  background: #0dadb9;
+  padding: 40px;
+}
+
+.loading-wrapper,
+.error-wrapper,
+.notfound-wrapper{
+  text-align: center;
+  margin-top: 60px;
+}
